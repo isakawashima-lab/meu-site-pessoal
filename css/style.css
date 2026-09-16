@@ -46,18 +46,16 @@ p{
 
 .intro{
     margin: 30px 0 50px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     border-bottom: 0.5px solid #616060;
-
-    /*display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;*/
 }
 
 .sobre{
     flex-direction: column;
     margin-bottom: 10vh;
+
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #616060;
 }
   
 .sobre-titulo{
