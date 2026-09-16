@@ -50,7 +50,7 @@ p{
     border-bottom: 0.5px solid #616060;
 }
 
-.sobre{
+.sobre, .habilidades{
     flex-direction: column;
     margin-bottom: 10vh;
 
@@ -58,15 +58,15 @@ p{
     border-bottom: 0.5px solid #616060;
 }
   
-.sobre-titulo{
+.sobre-titulo, .habilidades-titulo{
     font-size: 20px;
     font-weight: 500;
     margin: 0 0 25px;
 }
 
-
-.sobre-descricao{
+.sobre-descricao, .habilidades-descricao{
     margin: 0 50 20px;
     line-height: 1.6;
 }
+
 
