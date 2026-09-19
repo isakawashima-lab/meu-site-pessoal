@@ -65,7 +65,7 @@ p{
     border-bottom: 0.5px solid #616060;
 }
   
-.sobre-titulo, .habilidades-titulo, .projetos-titulo{
+.sobre-titulo, .habilidades-titulo, .projetos-titulo, .contatos-titulo{
     font-size: 20px;
     font-weight: 500;
     margin: 0 0 25px;
@@ -79,16 +79,19 @@ p{
 .projetos{
     flex-direction: column;
     margin-bottom: 10vh;
+
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #616060;
 }
 
-.projetos-link{
+.projetos-link, .contatos.link{
     bottom: 40px;
     width: 170px;
     display: flex;
 }
 
-.projetos-link a{
-    display: flex;
+.projetos-link a, .contatos-link a{
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 40px;
